@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">
+        Iniciar Sesión
+    </h2>
+    <div class="text-center mb-3">
+        <img src="~/img/snake.png" alt="Snake Image" class="img-fluid" style="max-height: 200px;" />
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <form asp-action="Login" method="post">
+                        <div class="form-group">
+                            <label for="username">Nombre de usuario</label>
+                            <input type="text" class="form-control" id="username" name="username" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="contraseña">Contraseña</label>
+                            <input type="password" class="form-control" id="contraseña" name="contraseña" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+
+                        @if (ViewData.ModelState.ContainsKey("") && ViewData.ModelState[""].Errors.Count > 0)
+                        {
+                            <div class="alert alert-warning mt-3">
+                                @ViewData.ModelState[""].Errors[0].ErrorMessage
+                                <a asp-controller="Usuarios" asp-action="Crear" class="alert-link">Regístrese aquí</a>
+                            </div>
+                        }
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    h2 {
+        color: #28a745; 
+
+    .card {
+        border: 1px solid #28a745;
+        border-radius: 0.5rem; 
+    }
+</style>

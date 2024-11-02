@@ -1,0 +1,58 @@
+﻿@model SnakeGameApp.Models.Usuario
+
+@{
+    ViewData["Title"] = "Registrar Usuario";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4" style="color: green;">Registrar Usuario</h2>
+
+    <form asp-action="Crear" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Username" class="font-weight-bold"></label>
+            <input asp-for="Username" class="form-control" required />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ContraseñaHash" class="font-weight-bold"></label>
+            <input asp-for="ContraseñaHash" type="password" class="form-control" required />
+            <span asp-validation-for="ContraseñaHash" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FotoPerfil" class="font-weight-bold"></label>
+            <input asp-for="FotoPerfil" class="form-control" />
+            <span asp-validation-for="FotoPerfil" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Registrar" class="btn btn-success btn-block" />
+        </div>
+    </form>
+
+    <div class="text-center mt-3">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Volver a Inicio</a>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa; 
+    }
+    h2 {
+        color: green;
+    }
+    .btn-success {
+        background-color: green;
+        border-color: green; 
+    }
+    .btn-outline-secondary {
+        color: green; 
+        border-color: green; 
+    }
+    .btn-outline-secondary:hover {
+            background-color: green; 
+            color: white; 
+    }
+</style>

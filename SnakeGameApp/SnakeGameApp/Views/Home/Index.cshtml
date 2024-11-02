@@ -1,0 +1,71 @@
+﻿@model IEnumerable<SnakeGameApp.Models.Partida>
+
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="container text-center mt-5">
+    <h2 class="mb-4">Bienvenido a SnakeGameApp</h2>
+
+    <img src="~/img/snake.png" alt="Juego de Serpiente" class="img-fluid mb-4" style="max-width: 300px;">
+
+    <div class="row mb-4">
+        <div class="col">
+            <a class="btn btn-primary" asp-controller="Usuarios" asp-action="Crear">Registrar un nuevo usuario</a>
+        </div>
+        <div class="col">
+            <a class="btn btn-success" asp-controller="Usuarios" asp-action="Login">Iniciar sesión</a>
+        </div>
+    </div>
+
+    <h3 class="mt-5 mb-3">Lista de Partidas</h3>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Usuario</th>
+                <th>Resultado</th>
+                <th>Tiempo de Juego</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+
+                foreach (var partida in Model)
+
+                {
+                    <tr>
+                        <td>@partida.Usuario.Username</td>
+                        <td>@partida.Resultado</td>
+                        <td>@partida.TiempoDeJuego</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">No hay partidas registradas.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    h2, h3 {
+        color: #007bff;
+    }
+
+    .btn {
+        width: 200px;
+    }
+
+    .table {
+        margin-top: 20px;
+        border-radius: 0.5rem;
+    }
+</style>

@@ -50,7 +50,7 @@ namespace SnakeGameApp.Controllers
                     .FirstOrDefaultAsync(u => u.Username == username);
                 if (usuario != null && contraseña == usuario.ContraseñaHash)
                 {
-                    return RedirectToAction("Juego", "Usuarios");
+                    return RedirectToAction("Index", "Game");
                 }
                 ModelState.AddModelError("", "Nombre de usuario o contraseña incorrectos.");
             }

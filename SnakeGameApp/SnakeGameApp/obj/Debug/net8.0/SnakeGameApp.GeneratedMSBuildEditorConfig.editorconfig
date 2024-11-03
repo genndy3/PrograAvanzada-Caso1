@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Lenovo\source\repos\PrograAvanzada-Caso1\SnakeGameApp\SnakeGameApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Lenovo/source/repos/PrograAvanzada-Caso1/SnakeGameApp/SnakeGameApp/Views/Game/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo/source/repos/PrograAvanzada-Caso1/SnakeGameApp/SnakeGameApp/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,10 +44,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Lenovo/source/repos/PrograAvanzada-Caso1/SnakeGameApp/SnakeGameApp/Views/Usuarios/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Lenovo/source/repos/PrograAvanzada-Caso1/SnakeGameApp/SnakeGameApp/Views/Usuarios/Juego.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSnVlZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/source/repos/PrograAvanzada-Caso1/SnakeGameApp/SnakeGameApp/Views/Usuarios/Login.cshtml]

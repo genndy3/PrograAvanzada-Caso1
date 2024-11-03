@@ -1,0 +1,313 @@
+﻿@model SnakeGameApp.Models.VistaJuego
+
+@{
+    ViewData["Title"] = "Juego de la Culebrita";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: white;
+            text-align: center;
+        }
+
+        #gameContainer {
+            position: relative;
+            display: inline-block;
+            width: 600px;
+            height: 400px;
+            border: 2px solid white;
+            background-color: #28a745;
+            margin-right: 20px;
+        }
+
+        .snake {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: black;
+        }
+
+        .apple {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url('/img/apple.png');
+            background-size: cover;
+        }
+
+        #scoreContainer {
+            padding: 10px;
+            background-color: #f8f9fa;
+            border: 2px solid #28a745;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        #score {
+            font-size: 24px;
+            color: #28a745;
+        }
+
+        #playButton {
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            #playButton:hover {
+                background-color: #0056b3;
+            }
+
+
+        .game-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #gameContainer {
+            position: relative;
+            width: 600px;
+            height: 400px;
+            border: 2px solid white;
+            background-color: #28a745;
+            margin-right: 20px;
+        }
+
+        #controls {
+            text-align: center;
+        }
+
+        .arrow {
+            font-size: 24px;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .arrow:hover {
+                background-color: #0056b3;
+            }
+
+        .modal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Culebrita</h1>
+    <div class="game-area">
+        <div id="gameContainer">
+                @foreach (var segment in Model.Snake.Cuerpo)
+                {
+                    <div></div>
+                }
+
+                <div></div>
+        </div>
+            <div id="controls">
+                <button class="arrow" id="upButton">↑</button><br>
+                <button class="arrow" id="leftButton">←</button>
+                <button class="arrow" id="rightButton">→</button><br>
+                <button class="arrow" id="downButton">↓</button>
+            </div>
+    </div>
+        <div id="scoreContainer">
+            <h3>Marcador de Manzanas</h3>
+            <div id="score">0</div>
+        </div>
+    </div>
+
+    <div id="gameOverModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>¡Game Over!</h2>
+            <p>Has perdido el juego.</p>
+            <button id="restartButton" onclick="restartGame()">Reiniciar</button>
+        </div>
+    </div>
+
+    <script>
+        const gameContainer = document.getElementById('gameContainer');
+        const scoreElement = document.getElementById('score');
+        const segmentSize = 20;
+        let manzanas = 0;
+        let direction = '';
+        let snake = [{ x: 100, y: 100 }, { x: 90, y: 100 }];
+        let apple = getRandomPosition();
+
+        function drawSnake() {
+            gameContainer.innerHTML = '';
+            snake.forEach(segment => {
+                const snakeSegment = document.createElement('div');
+                snakeSegment.className = 'snake';
+                snakeSegment.style.left = segment.x + 'px';
+                snakeSegment.style.top = segment.y + 'px';
+                gameContainer.appendChild(snakeSegment);
+            });
+
+            const appleSegment = document.createElement('div');
+            appleSegment.className = 'apple';
+            appleSegment.style.left = apple.x + 'px';
+            appleSegment.style.top = apple.y + 'px';
+            gameContainer.appendChild(appleSegment);
+        }
+
+        function moveSnake() {
+            const head = { ...snake[0] };
+
+            switch (direction) {
+                case 'UP':
+                    head.y -= segmentSize;
+                    break;
+                case 'DOWN':
+                    head.y += segmentSize;
+                    break;
+                case 'LEFT':
+                    head.x -= segmentSize;
+                    break;
+                case 'RIGHT':
+                    head.x += segmentSize;
+                    break;
+            }
+
+            if (head.x < 0 || head.x >= gameContainer.offsetWidth || head.y < 0 || head.y >= gameContainer.offsetHeight) {
+                showModal();
+                clearInterval(gameInterval);
+                return;
+            }
+
+            snake.unshift(head);
+            snake.pop();
+            console.log(head, apple)
+            checkAppleCollision();
+            console.log(head, apple)
+            drawSnake();
+        }
+
+        function getRandomPosition() {
+            let position;
+            let isValidPosition = false;
+
+            while (!isValidPosition) {
+                const x = Math.floor(Math.random() * (gameContainer.offsetWidth / segmentSize)) * segmentSize;
+                const y = Math.floor(Math.random() * (gameContainer.offsetHeight / segmentSize)) * segmentSize;
+                position = { x, y };
+
+                isValidPosition = !snake.some(segment => segment.x === position.x && segment.y === position.y);
+            }
+
+            return position;
+        }
+
+        function checkAppleCollision() {
+            const head = snake[0];
+
+            if (
+                head.x < apple.x + 50 &&
+                head.x + segmentSize > apple.x &&
+                head.y < apple.y + 50 &&
+                head.y + segmentSize > apple.y
+            ) {
+                apple = getRandomPosition();
+                manzanas += 1;
+                updateScore();
+
+                const newSegment = { ...snake[snake.length - 1] };
+                snake.push(newSegment);
+            }
+        }
+
+        document.getElementById('upButton').onclick = function () {
+            direction = 'UP';
+        };
+
+        document.getElementById('downButton').onclick = function () {
+            direction = 'DOWN';
+        };
+
+        document.getElementById('leftButton').onclick = function () {
+            direction = 'LEFT';
+        };
+
+        document.getElementById('rightButton').onclick = function () {
+            direction = 'RIGHT';
+        };
+
+        let gameInterval = setInterval(moveSnake, 200);
+
+        function showModal() {
+            document.getElementById('gameOverModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('gameOverModal').style.display = 'none';
+        }
+
+        function updateScore() {
+            scoreElement.textContent = manzanas;
+        }
+
+        function restartGame() {
+            manzanas = 0;
+            updateScore();
+            direction = '';
+            snake = [{ x: 100, y: 100 }, { x: 90, y: 100 }];
+            apple = getRandomPosition();
+            drawSnake();
+            document.getElementById('gameOverModal').style.display = 'none';
+            gameInterval = setInterval(moveSnake, 200);
+        }
+
+    </script>
+</body>
+</html>

@@ -17,8 +17,7 @@ namespace SnakeGameApp.Controllers
 
         public IActionResult Index()
         {
-            var partidas = _context.Partidas.ToList(); // Asegúrate de que esto retorne una lista
-            return View(partidas);
+            return View();
         }
 
     }

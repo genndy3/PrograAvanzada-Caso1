@@ -48,8 +48,11 @@ namespace SnakeGameApp.Controllers
             {
                 var usuario = await _context.Usuarios
                     .FirstOrDefaultAsync(u => u.Username == username);
+
+
                 if (usuario != null && contraseña == usuario.ContraseñaHash)
                 {
+                    HttpContext.Session.SetInt32("UsuarioID", usuario.UsuarioID);
                     return RedirectToAction("Index", "Game");
                 }
                 ModelState.AddModelError("", "Nombre de usuario o contraseña incorrectos.");

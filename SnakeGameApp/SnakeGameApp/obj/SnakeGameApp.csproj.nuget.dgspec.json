@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj": {}
+    "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj": {
+    "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
+        "projectUniqueName": "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
         "projectName": "SnakeGameApp",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\obj\\",
+        "projectPath": "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
+        "packagesPath": "C:\\Users\\alejandro.aguilar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alejandro.aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -80,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

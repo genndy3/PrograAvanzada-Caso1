@@ -1,4 +1,4 @@
-﻿@using Microsoft.AspNetCore.Http
+﻿﻿@using Microsoft.AspNetCore.Http
 @model SnakeGameApp.Models.VistaJuego
 
 @{
@@ -44,7 +44,7 @@
             background-size: cover;
         }
 
-        #scoreContainer {
+        #scoreContainer, #timerContainer {
             padding: 10px;
             background-color: #f8f9fa;
             border: 2px solid #28a745;
@@ -168,6 +168,9 @@
             <h3>Marcador de Manzanas</h3>
             <div id="score">0</div>
         </div>
+        <div id="timerContainer">
+            <h3>Tiempo de juego:</h3>
+            <div id="gameTime">00:00:00</div>
     </div>
 
     <div id="gameOverModal" class="modal" style="display: none;">
@@ -180,7 +183,7 @@
         </div>
     </div>
 
-    <script>
+     <script>
         const gameContainer = document.getElementById('gameContainer');
         const scoreElement = document.getElementById('score');
         const segmentSize = 20;
@@ -288,12 +291,24 @@
         };
 
         let gameInterval = setInterval(moveSnake, 200);
+        let seconds = 0;
+        let timeInterval = setInterval(() => {
+            seconds++;
+            document.getElementById("gameTime").textContent = new Date(seconds * 1000).toISOString().substr(11, 8);
+        }, 1000);
 
+        function formatTime(seconds) {
+                const hrs = Math.floor(seconds / 3600).toString().padStart(2, '0');
+                const mins = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
+                const secs = (seconds % 60).toString().padStart(2, '0');
+                return `${hrs}:${mins}:${secs}`;
+            }
         function showModal() {
             document.getElementById('finalScore').textContent = manzanas;
             document.getElementById('gameOverModal').style.display = 'flex';
 
             var usuario = '@username';
+            const tiempoDeJuego = formatTime(seconds); // Usa el tiempo transcurrido en segundos
 
             fetch('/Game/RegistrarPuntuacion', {
                 method: 'POST',
@@ -302,18 +317,20 @@
                 },
                 body: JSON.stringify({
                     UsuarioID: usuario,
-                    Resultado: manzanas
+                    Resultado: manzanas,
+                    TiempoDeJuego: tiempoDeJuego // Pasa el tiempo aquí
                 })
             })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(data => console.log(data))
-                .catch(error => console.error('There was a problem with your fetch operation:', error));
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => console.log(data))
+            .catch(error => console.error('There was a problem with your fetch operation:', error));
 
+            clearInterval(timeInterval); // Detiene el cronómetro
         }
 
         function closeModal() {
@@ -333,6 +350,11 @@
             drawSnake();
             document.getElementById('gameOverModal').style.display = 'none';
             gameInterval = setInterval(moveSnake, 200);
+            seconds = 0;
+            timeInterval = setInterval(() => {
+                seconds++;
+                document.getElementById("gameTime").textContent = new Date(seconds * 1000).toISOString().substr(11, 8);
+            }, 1000);
         }
 
     </script>

@@ -18,7 +18,7 @@ GO
 -- Crear la tabla Partidas
 CREATE TABLE Partidas (
     PartidaID INT PRIMARY KEY IDENTITY(1,1),
-    UsuarioID VARCHAR(100) NOT NULL,
+    UsuarioID INT NOT NULL,
     Resultado INT NOT NULL,
     TiempoDeJuego TIME
 );

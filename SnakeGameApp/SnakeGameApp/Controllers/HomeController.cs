@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SnakeGameApp.Data;
+using SnakeGameApp.Models;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,7 +18,8 @@ namespace SnakeGameApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Partida> partidas = _context.Partidas.ToList();
+            return View(partidas);
         }
 
     }

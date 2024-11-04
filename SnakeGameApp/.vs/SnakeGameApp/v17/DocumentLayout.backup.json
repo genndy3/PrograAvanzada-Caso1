@@ -1,70 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\",
+  "WorkspaceRootPath": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\views\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\views\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\models\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\models\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\models\\apple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\models\\apple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\models\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\tony-\\onedrive\\escritorio\\casopracticogit\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\models\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\models\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\tony-\\onedrive\\escritorio\\casopracticogit\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\data\\snakegamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\data\\snakegamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\tony-\\onedrive\\escritorio\\casopracticogit\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\tony-\\onedrive\\escritorio\\casopracticogit\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\tony-\\onedrive\\escritorio\\casopracticogit\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\lenovo\\source\\repos\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\tony-\\onedrive\\escritorio\\casopracticogit\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\views\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\views\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|c:\\users\\tony-\\onedrive\\escritorio\\casopracticogit\\prograavanzada-caso1\\snakegameapp\\snakegameapp\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C0B43E-5C9B-4BB4-8ADA-02BC03E83891}|SnakeGameApp\\SnakeGameApp.csproj|solutionrelative:snakegameapp\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,200 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Program.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Program.cs",
-              "RelativeToolTip": "SnakeGameApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:35:07.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "SnakeGameApp\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Usuario.cs",
               "RelativeToolTip": "SnakeGameApp\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:28:21.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
-              "RelativeToolTip": "SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T15:27:58.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VistaJuego.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\VistaJuego.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Models\\VistaJuego.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\VistaJuego.cs",
-              "RelativeToolTip": "SnakeGameApp\\Models\\VistaJuego.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:53:28.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Apple.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Apple.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Models\\Apple.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Apple.cs",
-              "RelativeToolTip": "SnakeGameApp\\Models\\Apple.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:37:24.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SnakeGameApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:15:15.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Game\\Index.cshtml",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Views\\Game\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Game\\Index.cshtml",
-              "RelativeToolTip": "SnakeGameApp\\Views\\Game\\Index.cshtml",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T23:04:27.196Z",
+              "WhenOpened": "2024-11-04T21:50:34.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Controllers\\GameController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\GameController.cs",
-              "RelativeToolTip": "SnakeGameApp\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:00:25.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "SnakeGameApp\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "SnakeGameApp\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:00:05.524Z"
+              "WhenOpened": "2024-11-04T21:50:29.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Partida.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Partida.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Models\\Partida.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Partida.cs",
-              "RelativeToolTip": "SnakeGameApp\\Models\\Partida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SnakeGameApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SnakeGameApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:52:30.713Z"
+              "WhenOpened": "2024-11-04T21:38:25.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Snake.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Snake.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Models\\Snake.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Snake.cs",
-              "RelativeToolTip": "SnakeGameApp\\Models\\Snake.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:52:24.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\appsettings.json",
-              "RelativeDocumentMoniker": "SnakeGameApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\appsettings.json",
-              "RelativeToolTip": "SnakeGameApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T22:50:02.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "SnakeGameApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SnakeGameApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SnakeGameApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T22:49:48.372Z"
+              "WhenOpened": "2024-11-04T21:35:16.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SnakeGameContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Data\\SnakeGameContext.cs",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Data\\SnakeGameContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Data\\SnakeGameContext.cs",
-              "RelativeToolTip": "SnakeGameApp\\Data\\SnakeGameContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "SnakeGameApp\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Controllers\\GameController.cs",
+              "RelativeToolTip": "SnakeGameApp\\Controllers\\GameController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAewC4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:49:36.087Z"
+              "WhenOpened": "2024-11-04T02:58:40.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "SnakeGameApp\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Properties\\launchSettings.json",
-              "RelativeToolTip": "SnakeGameApp\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T22:49:32.972Z"
+              "DocumentIndex": 0,
+              "Title": "Partida.cs",
+              "DocumentMoniker": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Partida.cs",
+              "RelativeDocumentMoniker": "SnakeGameApp\\Models\\Partida.cs",
+              "ToolTip": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Models\\Partida.cs*",
+              "RelativeToolTip": "SnakeGameApp\\Models\\Partida.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T02:43:51.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "SnakeGameApp\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\appsettings.Development.json",
-              "RelativeToolTip": "SnakeGameApp\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T17:46:59.255Z"
+              "DocumentIndex": 5,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
+              "RelativeDocumentMoniker": "SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
+              "RelativeToolTip": "SnakeGameApp\\Views\\Usuarios\\Crear.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T02:06:14.232Z",
+              "EditorCaption": ""
             }
           ]
         }

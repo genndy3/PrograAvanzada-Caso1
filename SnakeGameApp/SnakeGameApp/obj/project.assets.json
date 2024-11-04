@@ -4497,19 +4497,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alejandro.aguilar\\.nuget\\packages\\": {}
+    "C:\\Users\\tony-\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
+      "projectUniqueName": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
       "projectName": "SnakeGameApp",
-      "projectPath": "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
-      "packagesPath": "C:\\Users\\alejandro.aguilar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alejandro.aguilar\\OneDrive - Cargo Expreso\\Datos Laptop\\Documentos\\Universidad\\Programación Avanzada\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\obj\\",
+      "projectPath": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\SnakeGameApp.csproj",
+      "packagesPath": "C:\\Users\\tony-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tony-\\OneDrive\\Escritorio\\casopracticogit\\PrograAvanzada-Caso1\\SnakeGameApp\\SnakeGameApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alejandro.aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tony-\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4517,6 +4517,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4574,7 +4575,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

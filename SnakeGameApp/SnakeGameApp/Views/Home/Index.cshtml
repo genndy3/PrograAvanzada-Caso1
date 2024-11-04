@@ -29,6 +29,15 @@
             </tr>
         </thead>
         <tbody>
+            @foreach (var partida in Model)
+            {
+                    <tr>
+                        <td>@partida.PartidaID</td>
+                        <td>@partida.UsuarioID</td>
+                        <td>@partida.Resultado</td>
+                        <td>@partida.TiempoDeJuego</td>
+                    </tr>
+            }
         </tbody>
     </table>
 </div>

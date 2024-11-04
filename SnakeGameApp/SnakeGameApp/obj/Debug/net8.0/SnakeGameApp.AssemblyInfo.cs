@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SnakeGameApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+240aae423cc159f1172576b89b2abaf1ed7eb50b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52dbc22fe9d848a9781ead7b150b1e25b1d9c19e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SnakeGameApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SnakeGameApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
